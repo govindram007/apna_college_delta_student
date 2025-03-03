@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body{
+    text-align: center;
+}
+
+input, button, ul, li{
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.game-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.game{
+    height: 100vh;
+    width: 40vh;
+    text-align: start;
+}
+
+button{
+    margin-top: 0.5rem;
+}
+
+li{
+    width: 100%;
+}
